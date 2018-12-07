@@ -1,1 +1,1 @@
-# Meeting-App
+# Meeting
