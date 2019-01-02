@@ -1,0 +1,159 @@
+body{
+  overflow-x: hidden;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a:hover{
+  text-decoration: none
+}
+
+
+#drop:hover{
+  cursor: pointer;
+}
+
+#btn_fb{
+  width: 300px;
+  height: 60px;
+  color:#fff;
+  font-size: 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  background: #14629D;
+  margin-top: -500px;
+}
+
+#abc{
+  height: 500px;
+  border:5px solid red;
+}
+
+#white{
+  background: #fff;
+  width: 220px;
+  height: 38px;
+}
+
+#fff{
+  background: #fff;
+}
+
+#cancel{
+  margin-top: 45px
+}
+
+
+@media(max-width:576px){
+  #cancel{
+    margin-top: 11px;
+  }
+}
+
+@media(max-width:356px){
+  #cancel{
+  margin-top: 4px;
+  margin-right: 60px;
+  }
+}
+
+#color{
+  /* background: linear-gradient(fd9f61,d02f63); */
+  /* background-image: linear-gradient(to right,#d02f63, #fbad65 ); */
+  box-shadow: 0px 1px 10px grey;
+  background-image: linear-gradient(to right,#fca766, #d02f63);
+}
+
+#btn_color{
+  background-image: linear-gradient(to right,#fca766, #d02f63);
+    border-color: #fca766;
+}
+
+#profile{
+  color: #fff;
+}
+
+#search{
+  border-radius: 5px;
+  height: 35px;
+}
+
+#Datecard{
+  width: 500px
+}
+
+@media(max-width:767px){
+  #font{
+    font-size: 25px;
+  }
+}
+
+@media(max-width:435px){
+  #font{
+    font-size: 20px;
+  }
+}
+
+@media(max-width:355px){
+  #font{
+    font-size: 17px;
+  }
+}
+
+.carousel-arrow{
+  margin-right: -50px;
+}
+
+#pic{
+  margin-left: -120px
+}
+
+#pic1{
+  margin-top: -140px;
+  margin-left: 120px;
+}
+
+@media(max-width:355px){
+  #pic{
+    /* width: 0px; */
+  margin-left: -110px
+  }
+
+  #pic1{
+    margin-top: -140px;
+    margin-left: 90px;
+  }
+}
+
+#modal{
+  width: 200px;
+  height: 200px;
+  margin-left: 200px
+}
+
+#cross{
+  margin-left: -10px;
+  margin-top: -50px
+}
+
+#tick{
+  margin-left: 200px;
+  margin-top: -50px
+}
+
+#nick{
+  background: #fff;
+  margin-top: -30px
+}
+
