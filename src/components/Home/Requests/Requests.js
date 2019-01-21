@@ -130,39 +130,7 @@ class Dashboard extends Component {
 
             var a = { id: res.id, to: res.data().reciever, userName: res.data().name, restaurant: res.data().restaurant, date: res.data().date, time: starthour + ":" + startmin, endtime: endhour + ":" + endmin, userpic: res.data().pic, pic: res.data().userpic, resLat: res.data().resLat, resLon: res.data().resLon, request: "Pending" };
             this.setState({ data: [...this.state.data, a] });
-            // var jumbotron = document.createElement("div");
-            // var h2 = document.createElement("h2");
-            // var h4 = document.createElement("h4");
-            // var h42 = document.createElement("h4");
-            // var h43 = document.createElement("h4");
-            // var data = document.getElementById("request");
-            // var btn = document.createElement("button");
-            // var btn1 = document.createElement("button");
-
-            // h2.setAttribute("id", "font");
-            // btn.setAttribute("class", "btn btn-success mt-3");
-            // btn.addEventListener("click", () => this.accept(res.id));
-            // btn1.addEventListener("click", () => this.decline(res.id));
-            // btn1.setAttribute("class", "btn btn-danger mt-3 ml-3");
-            // jumbotron.setAttribute(
-            //   "class",
-            //   "jumbotron border border-primary mt-5"
-            // );
-
-            // h2.innerHTML = "From: " + res.data().sender;
-            // h4.innerHTML = "Venue: " + res.data().restaurant;
-            // h42.innerHTML = "Date: " + res.data().date;
-            // h43.innerHTML = "Time: " + res.data().time;
-            // btn.innerHTML = "Accept";
-            // btn1.innerHTML = "Decline";
-
-            // jumbotron.appendChild(h2);
-            // jumbotron.appendChild(h4);
-            // jumbotron.appendChild(h42);
-            // jumbotron.appendChild(h43);
-            // jumbotron.appendChild(btn);
-            // jumbotron.appendChild(btn1);
-            // data.appendChild(jumbotron);
+            
           });
         }
       })
