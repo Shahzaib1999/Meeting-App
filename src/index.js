@@ -6,17 +6,15 @@ import * as serviceWorker from './serviceWorker';
 import * as firebase from "firebase";
 
 const config = { 
-    apiKey: "AIzaSyBfbB4ASPoDn8BxR5KY1MNgIjodjhxS8Co", 
+    apiKey: "Your Key", 
     authDomain: "meeting-app-1999.firebaseapp.com", 
-    databaseURL: "https://meeting-app-1999.firebaseio.com", 
+    databaseURL: "db url", 
     projectId: "meeting-app-1999", 
     storageBucket: "meeting-app-1999.appspot.com", 
-    messagingSenderId: "816278550808" };
+    messagingSenderId: "Your ID" };
 
     firebase.initializeApp(config);
 
-    // const timestamp = snapshot.get('created_at');
-    // const date = timestamp.toDate();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
