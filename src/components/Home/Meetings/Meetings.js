@@ -9,11 +9,9 @@ import {
   PopupboxContainer
 } from 'react-popupbox';
 import Modal from "react-modal";
-// import StarRating from "react-star-rating";
 import StarRatings from "react-star-ratings";
 import "react-add-to-calendar/dist/react-add-to-calendar.css";
-// import "react-popupbox/dist/react-popupbox.css";
-// import "react-star-rating/dist/css/react-star-rating.min.css";
+
 
 class Dashboard extends Component {
     constructor() {
