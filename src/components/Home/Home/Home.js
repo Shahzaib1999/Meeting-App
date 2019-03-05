@@ -359,7 +359,7 @@ class Home extends Component {
       <div className="container mt-3">
         {coords && <MyMapComponent
           isMarkerShown
-          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyANkUfLBovPhWMJohvoCTbFbo3Rd7uPLSo&v=3.exp&libraries=geometry,drawing,places"
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=xxxxAPI-KEYxxxxx&v=3.exp&libraries=geometry,drawing,places"
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `80vh` }} />}
           mapElement={<div style={{ height: `100%` }} />}
